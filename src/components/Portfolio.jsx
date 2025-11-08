@@ -49,8 +49,8 @@ const projects = [
       title: "Project: Personal Portfolio",
       description: "A personal portfolio built with Vite and React, featuring a modern design to showcase my projects, skills and a section about me",
       links: {
-        site: "#",
-        github: "https://github.com/shankershiv3112/prsonal_portfolio",
+        site: "https://persnol-portfolio-iota.vercel.app/",
+        github: "https://github.com/ak251103/persnol-portfolio",
       },
     },
   ]

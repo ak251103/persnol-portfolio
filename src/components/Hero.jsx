@@ -104,14 +104,16 @@ const Hero = () => {
             </motion.div>
 
 
-            <motion.img 
-                src={profilepic}
-                className="w-[300px] md:w-[450px]"
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1 }}
-            />
+                <motion.img
+    src={profilepic}
+    alt="Profile Picture"
+    className="w-[280px] h-[280px] md:w-[360px] md:h-[360px] object-cover rounded-2xl shadow-lg"
+    initial={{ opacity: 0, scale: 0.85 }}
+    whileInView={{ opacity: 1, scale: 1 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.8, ease: 'easeOut' }}
+    />
+
         </div>
 
         <motion.div
